@@ -1,5 +1,7 @@
 * == documentation tool -- for -- your Angular application
 
+# Documentation
+* [here](src/docs/index.md)
 # About this website
 ## how to run?
 * 
@@ -10,7 +12,7 @@
 * | browser,
   * http://localhost:9000/
 
-# how to build?
+## how to build?
 
 ```
 npm run build
