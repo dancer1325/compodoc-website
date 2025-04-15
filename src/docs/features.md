@@ -1,6 +1,3 @@
-
-
-
 - **design / simple & clean**
     - | left side,
         - navigation
@@ -28,10 +25,12 @@
     - `@example`
 - **your project's Documentation coverage**
 - **Support** 
-  - Angular CLI
-  - [Angular](https://angular.io/), 
-  - [NestJS](https://nestjs.com/)
-  - [Stencil](https://stenciljs.com/)
+  - tools
+    - Angular CLI
+    - [Angular](https://angular.io/), 
+    - [NestJS](https://nestjs.com/)
+    - [Stencil](https://stenciljs.com/)
+  - browser's Dark mode
 - **generated Offline**
   - == NO
     - server needed,
@@ -41,7 +40,6 @@
   - == MANY AVAILABLE languages
 - **No TypeScript compilation**
   - == Compodoc ONLY parses your code
-- **Support browser's Dark mode**
 
 [gitbook]: https://www.gitbook.com
 [read the docs]: https://readthedocs.org/
