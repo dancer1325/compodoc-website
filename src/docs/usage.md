@@ -1,13 +1,17 @@
 # Configuration file
 
-You can provide a configuration file in the root of your project folder.
+* search by default, the files
+  * .compodocrc,
+  * .compodocrc.json,
+  * .compodocrc.yaml
+  * compodoc property | your package.json 
+* recommendations   
+  * place | your project folder's root 
+* [JSON schema](./node_modules/@compodoc/compodoc/src/config/schema.json)
 
-Compodoc will search files like : .compodocrc, .compodocrc.json, .compodocrc.yaml or a compodoc property in your package.json
+# | Windows, options & quotes
 
-A JSON schema is available here : `./node_modules/@compodoc/compodoc/src/config/schema.json`
-
-# Options, quotes and Windows usage
-
+* TODO:
 Keep in mind that using options with multiple words need quotes around your sentence.
 
 ```bash
@@ -24,36 +28,32 @@ Using npm scripts, the command is hosted in package.json file. Don't forget to e
 }
 ```
 
-# Render documentation
+# How to render the documentation?
 
-Documentation is generated in default output folder, then run your HTTP server in that folder.
+* documentation generated | default output folder
 
 ```bash
 compodoc -p tsconfig.doc.json
 ```
 
-# Render documentation while providing source folder
+# How to render documentation / -- provide -- source folder?
 
 ```bash
 compodoc src -p tsconfig.doc.json
 ```
 
-# Serve generated documentation with compodoc
+# How to serve generated documentation -- via -- compodoc?
 
-Documentation was generated in default output folder or a specific one, the local HTTP server is launched at http://localhost:8080
+*
+    ```bash
+    compodoc -s
+    ```
+* | browser, http://localhost:8080
 
-```bash
-compodoc -s
+# How to render documentation & serve it -- via -- compodoc?
 
-or
-
-compodoc -s -d ./doc
-```
-
-# Render documentation, and serve it with compodoc
-
-Documentation is generated in default output folder, and a local HTTP server is available at http://localhost:8080
-
-```bash
-compodoc -p tsconfig.doc.json -s
-```
+* 
+    ```bash
+    compodoc -p tsconfig.doc.json -s
+    ```
+* | browser, http://localhost:8080
