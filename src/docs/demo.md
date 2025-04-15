@@ -1,22 +1,11 @@
 # Live Demos
 
-Live demos are available :
+* [Angular](https://compodoc.github.io/compodoc-demo-todomvc-angular/)
+* [Nest](https://compodoc.github.io/compodoc-demo-nestjs/)
+* [Stencil](https://compodoc.github.io/compodoc-demo-stencil/)
 
--   [Angular](https://compodoc.github.io/compodoc-demo-todomvc-angular/)
-
-It is the documentation generated for this demo project which is a simple [TodoMVC application](https://github.com/compodoc/compodoc-demo-todomvc-angular).
-
--   [Nest](https://compodoc.github.io/compodoc-demo-nestjs/)
-
-It is the documentation generated for this demo project which is a [RealWorld example app](https://github.com/compodoc/compodoc-demo-nestjs).
-
--   [Stencil](https://compodoc.github.io/compodoc-demo-stencil/)
-
-It is the documentation generated for this demo project which is a [Stencil example app](https://github.com/compodoc/compodoc-demo-stencil).
-
-# Screenshots
-
-Below are screenshots of generated documentation for this project [SoundCloud API client](https://github.com/r-park/soundcloud-ngrx) and default theme (gitbook)
+# Screenshots | [SoundCloud API client](https://github.com/r-park/soundcloud-ngrx) 
+* default theme (gitbook)
 
 ## README page
 
