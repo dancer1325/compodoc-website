@@ -15,4 +15,3 @@
 * [live example tab](live-example-tab.md)
 * [tab configuration](tab-configuration.md)
 * [hosting](hosting.md)
-* 
