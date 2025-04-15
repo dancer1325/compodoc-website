@@ -1,6 +1,6 @@
 # Live Demos
 
-* [Angular](https://compodoc.github.io/compodoc-demo-todomvc-angular/)
+* [Angular](https://github.com/dancer1325/compodoc-demo-todomvc-angular)
 * [Nest](https://compodoc.github.io/compodoc-demo-nestjs/)
 * [Stencil](https://compodoc.github.io/compodoc-demo-stencil/)
 
