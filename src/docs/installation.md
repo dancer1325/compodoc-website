@@ -1,95 +1,81 @@
 # Node.js versions
 
-Dated january 2025, Compodoc is tested and compatible with only last [active versions](https://nodejs.dev/fr/about/releases/) of Node.js (see this [link](https://angular.io/guide/versions) for more information) : v16.x, v18.x, v20.x
+* | january 2025,
+  * ⚠️compatible ONLY with Node.JS last [active versions](https://nodejs.org/en/about/previous-releases) ⚠️ 
+    * v16.x, 
+    * v18.x,
+    * v20.x
+
+* [Angular version vs Node.Js version](https://angular.dev/reference/versions)
 
 # Angular-CLI
 
-Dated january 2025, Compodoc supports last Angular-CLI version : 19.x
+* | january 2025,
+  * supports Angular-CLI v19.x
 
-Just run Compodoc in a fresh or existing project.
+# How to install?
+## Globally
 
-# Global installation
+* ways
+  * -- via -- Angular CLI
+    ```bash
+    ng add @compodoc/compodoc
+    ```
+  * -- via -- npm
+    ```bash
+    npm install -g @compodoc/compodoc
+    
+    # | Powershell
+    npm install -g "@compodoc/compodoc"
+    ```
 
-Install from Angular CLI :
+## Locally
 
-```bash
-ng add @compodoc/compodoc
-```
+* ways
+  * -- via -- Angular CLI
+    ```bash
+    ng add @compodoc/compodoc
+    ```
+    * structure
+      ```
+      .
+      ├── src
+      │ ├── app
+      │ │ ├── app.component.ts
+      │ │ └── app.module.ts
+      │ ├── main.ts
+      │ └── ...
+      ├── tsconfig.app.json
+      ├── tsconfig.doc.json
+      └── tsconfig.json
+      ```
+    * -> create npm scripts + special tsconfig.doc.json file
+  * -- via -- npm
+    ```bash
+    npm install --save-dev @compodoc/compodoc
+    ```
 
-Install from npm :
+# How to run?
 
-```bash
-npm install -g @compodoc/compodoc
-```
-
-If you use PowerShell on Windows, add quotes :
-
-```bash
-npm install -g "@compodoc/compodoc"
-```
-
-# Local installation
-
-Install with Angular CLI : npm scripts + special tsconfig.doc.json file will be created.
-
-```bash
-ng add @compodoc/compodoc
-```
-
-or directly
-
-```bash
-npm install --save-dev @compodoc/compodoc
-```
-
-# Run
-
-Create a file named `tsconfig.doc.json`, containing a key `include` pointing to `src` folder, you can also use `exclude` key :
-
-```
-{
-  "include": ["src/**/*.ts"],
-  "exclude": ["src/test.ts", "src/**/*.spec.ts", "src/app/file-to-exclude.ts"]
-}
-```
-
-Define a script task for it in your package.json (with npm 6.x) :
-
-```bash
-"scripts": {
-  "compodoc": "npx compodoc -p tsconfig.doc.json"
-}
-```
-
-and run it like a normal npm script :
-
-```bash
-npm run compodoc
-```
-
-or with npx :
-
-```bash
-npx @compodoc/compodoc ...
-```
-
-See [usage](./usage.html) for more details.
-
-# Position of tsconfig file in codebase
-
-Compodoc start at the folder level of the tsconfig file provided with `-p` option.
-
-Example for an Angular CLI project :
-
-```
-.
-├── src
-│ ├── app
-│ │ ├── app.component.ts
-│ │ └── app.module.ts
-│ ├── main.ts
-│ └── ...
-├── tsconfig.app.json
-├── tsconfig.doc.json
-└── tsconfig.json
-```
+* create `tsconfig.doc.json` / 
+  * 👀contain the key `include` / -- points to -- `src/` 👀 
+  * ALSO valid `exclude`
+  ```
+  {
+    "include": ["src/**/*.ts"],
+    "exclude": ["src/test.ts", "src/**/*.spec.ts", "src/app/file-to-exclude.ts"]
+  }
+  ```
+* | your package.json (npm 6.x)
+  ```bash
+  "scripts": {
+    "compodoc": "npx compodoc -p tsconfig.doc.json"
+  }
+  ```
+* run
+  ```bash
+  npm run compodoc
+  
+  # OR
+  npx @compodoc/compodoc ...
+  ```
