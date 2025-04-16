@@ -23,7 +23,7 @@
     - `@link`,
     - `@ignore`
     - `@example`
-- **your project's Documentation coverage**
+- **generate your project's Documentation coverage**
 - **Support** 
   - tools
     - Angular CLI
@@ -39,7 +39,7 @@
 - **i18n**
   - == MANY AVAILABLE languages
 - **No TypeScript compilation**
-  - == Compodoc ONLY parses your code
+  - ⚠️== Compodoc ONLY parses your code ⚠️
 
 [gitbook]: https://www.gitbook.com
 [read the docs]: https://readthedocs.org/
