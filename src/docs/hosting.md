@@ -1,7 +1,11 @@
 # Hosting
 
-Once you have the documentation generated inside an output folder, you can host your documentation where you want.
+* use case
+  * documentation generated | output folder
 
-## Github pages
+* goal
+  * how to host your documentation
 
-Follow this great tutorial : https://voorhoede.github.io/front-end-tooling-recipes/travis-deploy-to-gh-pages/
+## -- via --Github pages
+
+* [tutorial](https://voorhoede.github.io/front-end-tooling-recipes/travis-deploy-to-gh-pages/) 
