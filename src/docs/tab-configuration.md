@@ -1,6 +1,7 @@
 # Customizing tab order and labels
 
-The ordering of the tabs and the text used for their labels can be modified by setting the `navTabConfig`
+* `navTabConfig`
+The ordering of the tabs and the text used for their labels can be modified by setting the 
 input either as a property in a compodoc configuration file or as an argument to the `compodoc` CLI command.
 
 The `navTabConfig` input is an array of tab configuration objects representing the superset of tabs that will 
