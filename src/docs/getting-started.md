@@ -1,40 +1,13 @@
 # What is Compodoc ?
 
-Compodoc is a documentation tool for Angular applications. It generates a static documentation of your application.
-
-# Why Use Compodoc ?
-
-Compodoc helps Angular developers providing a clear and helpful documentation of their application.
-
-Others developers of your team, or internet visitors for a public documentation, can easily understand the features of your application or library.
+* == documentation tool -- for -- Angular applications /
+  * generates your application's static documentation 
 
 # Version support
 
-Dated january 2025, Compodoc is compatible with Angular 19 and standalone components, with limitations on routing support. There is a work in progress to support standalone components routing for graph generation.
-
-# Open Source
-
-Compodoc is an open source effort from [Vincent Ogloblinsky](http://www.vincentogloblinsky.com).
-
-Developers can contribute and fork the repo on [GitHub](https://github.com/compodoc/compodoc).
-
-Don't forget to read the [Contributing guide](https://github.com/compodoc/compodoc/blob/master/CONTRIBUTING.md).
-
-# Ready ? Go !
-
-Read the [installation](./installation.html) page for details on installation. The [usage](./usage.html) helps you with all the options available.
-
-# Backers
-
-Support us with a monthly donation and help us continue our activities. [Become a backer][support-url]
-
-[![Backers][backers-image]][support-url]
-
-# Sponsors
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [Become a sponsor][support-url]
-
-[![Sponsors][sponsors-image]][support-url]
+* | january 2025,
+  * -- compatible with --
+    * Angular 19 & standalone components / limitations | routing support
 
 [support-url]: https://opencollective.com/compodoc#support
 [backers-image]: https://opencollective.com/compodoc/backers.svg
