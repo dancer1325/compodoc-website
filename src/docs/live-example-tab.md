@@ -1,6 +1,10 @@
-# Components, directives and services example tags
+# `<example-url>` 
 
-Live demo examples tab can be added to components, directives and services documentation pages by the help of <example-url> tag.
+* allows
+  * adding live demo examples tab |
+    * components,
+    * directives
+    * services
 
 ```js
  /**
